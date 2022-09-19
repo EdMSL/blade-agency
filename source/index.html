@@ -19,6 +19,433 @@
 </head>
 
 <body>
+  <header>
+    <div>
+      <a href="#">
+        <img src="img/logo.svg" alt="Логотип агенства Blade">
+      </a>
+      <span>#bladefashion2019</span>
+    </div>
+    <button type="button">
+      <span class="visually-hidden">Кнопка открыть меню</span>
+    </button>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="#preview">Главная</a></li>
+          <li><a href="#participants">Участники</a></li>
+          <li><a href="#jury">Жюри</a></li>
+          <li><a href="#tickets">Билеты</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+      <button type="button" id="language-toggler">
+        <span class="visually-hidden">Сменить язык</span>
+      </button>
+      <ul>
+        <li>рус</li>
+        <li>англ</li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="preview">
+      <div>
+        <p>#bladefashion2019</p>
+        <h1>Показ лучших молодых дизайнеров России</h1>
+        <ul>
+          <li>
+            <time datetime="2019-11-18T12:30">18 ноября 12<sup>00</sup> - 20<sup>00</sup></time>
+          </li>
+          <li>
+            <p>Москва<br>
+              Лофт-центр &laquo;Эдем&raquo;</p>
+          </li>
+          <li>
+            <p>Победитель едет<br>на показ Blade в Париж!</p>
+          </li>
+        </ul>
+        <a href="#">Бронь билета</a>
+        <ul class="preview__social-links social-links">
+          <li>
+            <a href="https://facebook.com">
+              <img src="img/fb.svg" alt="Логотип Facebook" width="44" height="44">
+              <span class="visually-hidden">Ссылка на Facebook</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagramm.com">
+              <img src="img/insta.svg" alt="Логотип Instagramm" width="44" height="44">
+              <span class="visually-hidden">Ссылка на Instagramm</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com">
+              <img src="img/twitter.svg" alt="Логотип Twitter" width="44" height="44">
+              <span class="visually-hidden">Ссылка на Twitter</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="slider">
+        <img src="#" alt="Модель">
+        <button type="button">Предыдущий слайд</button>
+        <button type="button">Следующий слайд</button>
+      </div>
+    </section>
+
+    <section class="participants">
+      <h2>Участники</h2>
+      <button>
+        <span class="visually-hidden">Следующий слайд</span>
+      </button>
+      <button>
+        <span class="visually-hidden">Предыдущий слайд</span>
+      </button>
+      <ul class="participants__list">
+        <li class="participants__item">
+          <div class="participants__photo-block">
+            <p>Классика, нуар</p>
+            <img src="#" alt="Фото модели">
+          </div>
+          <div class="participants__author">
+            <img src="img" alt="Аватар Дэвид Робинсон">
+            <p>Дэвид Робинсон</p>
+            <p>США</p>
+            <ul class="participants__social-links">
+              <li>
+                <a href="https://facebook.com">
+                  <img src="img/fb.svg" alt="Логотип Facebook" width="24" height="24">
+                  <span class="visually-hidden">Ссылка на Facebook Дэвид Робинсон</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://instagramm.com">
+                  <img src="img/insta.svg" alt="Логотип Instagramm" width="24" height="24">
+                  <span class="visually-hidden">Ссылка на Instagramm Дэвид Робинсон</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com">
+                  <img src="img/twitter.svg" alt="Логотип Twitter" width="24" height="24">
+                  <span class="visually-hidden">Ссылка на Twitter Дэвид Робинсон</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="participants__item">
+          <div class="participants__photo-block">
+            <p>Авангард, импрессионизм</p>
+            <img src="#" alt="Фото модели">
+          </div>
+          <div class="participants__author">
+            <img src="img" alt="Аватар Келли Макдональд">
+            <p>Келли Макдональд</p>
+            <p>Ирландия</p>
+            <ul class="participants__social-links">
+              <li>
+                <a href="https://facebook.com">
+                  <img src="img/fb.svg" alt="Логотип Facebook" width="24" height="24">
+                  <span class="visually-hidden">Ссылка на Facebook Келли Макдональд</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://instagramm.com">
+                  <img src="img/insta.svg" alt="Логотип Instagramm" width="24" height="24">
+                  <span class="visually-hidden">Ссылка на Instagramm Келли Макдональд</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com">
+                  <img src="img/twitter.svg" alt="Логотип Twitter" width="24" height="24">
+                  <span class="visually-hidden">Ссылка на Twitter Келли Макдональд</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="participants__item">
+          <div class="participants__photo-block">
+            <p>Электрика, экотренд</p>
+            <img src="#" alt="Фото модели">
+          </div>
+          <div class="participants__author">
+            <img src="img" alt="Аватар Костас Папаниколау">
+            <p>Костас Папаниколау</p>
+            <p>Греция</p>
+            <ul class="participants__social-links">
+              <li>
+                <a href="https://facebook.com">
+                  <img src="img/fb.svg" alt="Логотип Facebook" width="24" height="24">
+                  <span class="visually-hidden">Ссылка на Facebook Костас Папаниколау</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://instagramm.com">
+                  <img src="img/insta.svg" alt="Логотип Instagramm" width="24" height="24">
+                  <span class="visually-hidden">Ссылка на Instagramm Костас Папаниколау</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com">
+                  <img src="img/twitter.svg" alt="Логотип Twitter" width="24" height="24">
+                  <span class="visually-hidden">Ссылка на Twitter Костас Папаниколау</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="jury">
+      <h2>Судьи BFW<sup>'</sup>19</h2>
+      <div class="jury__slider">
+        <button>
+          <span class="visually-hidden">Следующий слайд</span>
+        </button>
+        <button>
+          <span class="visually-hidden">Предыдущий слайд</span>
+        </button>
+        <ul class="jury__list">
+          <li class="jury__item">
+            <img src="#" alt="Фото Давис Бертанс">
+            <p>Давис Бертанс</p>
+            <p>Литва</p>
+            <p>Владелец модного дома в Литве. Судья показов young blood Vilnus.</p>
+            <ul>
+              <li>
+                <a href="https://facebook.com">
+                  <img src="img/fb.svg" alt="Логотип Facebook" width="24" height="24">
+                  <span class="visually-hidden">Ссылка на Facebook Давис Бертанс</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com">
+                  <img src="img/twitter.svg" alt="Логотип Twitter" width="24" height="24">
+                  <span class="visually-hidden">Ссылка на Twitter Давис Бертанс</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="jury__item">
+            <img src="#" alt="Фото Георгий Рубильников">
+            <p>Георгий Рубильников</p>
+            <p>Россия</p>
+            <p>Дизайнер, работающий с Gucci, владелец салона в Санкт-Петербурге.</p>
+            <ul>
+              <li>
+                <a href="https://instagramm.com">
+                  <img src="img/insta.svg" alt="Логотип Instagramm" width="24" height="24">
+                  <span class="visually-hidden">Ссылка на Instagramm Георгий Рубильников</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://facebook.com">
+                  <img src="img/fb.svg" alt="Логотип Facebook" width="24" height="24">
+                  <span class="visually-hidden">Ссылка на Facebook Георгий Рубильников</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com">
+                  <img src="img/twitter.svg" alt="Логотип Twitter" width="24" height="24">
+                  <span class="visually-hidden">Ссылка на Twitter Георгий Рубильников</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="jury__item">
+            <img src="#" alt="Фото Давид Гегенешвили">
+            <p>Давид Гегенешвили</p>
+            <p>Грузия</p>
+            <p>Создатель Georgia Runway Project. Главный судья на young blood Moscow.</p>
+            <ul>
+              <li>
+                <a href="https://instagramm.com">
+                  <img src="img/insta.svg" alt="Логотип Instagramm" width="24" height="24">
+                  <span class="visually-hidden">Ссылка на Instagramm Давид Гегенешвили</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://facebook.com">
+                  <img src="img/fb.svg" alt="Логотип Facebook" width="24" height="24">
+                  <span class="visually-hidden">Ссылка на Facebook Давид Гегенешвили</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="tickets">
+      <div>
+        <p>Вы можете приобрести билеты на Blade Fashion Week на нашем сайте: достаточно выбрать один из типов билетов (в зависимости от предлагаемых опций) и произвести оплату онлайн. Мы принимаем оплату:</p>
+        <ul class="tickets__companies">
+          <li><img src="img/Visa.svg" alt="Логотип VISA"></li>
+          <li><img src="img/ApplePay.svg" alt="Логотип Apple Pay"></li>
+          <li><img src="img/Master Card.svg" alt="Логотип Master Card"></li>
+          <li><img src="img/PayPal.svg" alt="Логотип PayPal"></li>
+        </ul>
+        <p>По всем вопросам, связанным с покупокй, возвратом или предлагаемыми опциями, вы можете обратиться к нашему консультанту по номеру:</p>
+        <a href="tel:+79244567890">+7 (924) 456 78 90</a>
+      </div>
+      <div>
+        <table>
+          <tr>
+            <th></th>
+            <th>Зритель</th>
+            <th>Оптимум</th>
+            <th>VIP</th>
+          </tr>
+          <tbody>
+            <tr>
+              <td>Пакет гостя форума</td>
+              <td class="visually-hidden">да</td>
+              <td class="visually-hidden">да</td>
+              <td class="visually-hidden">да</td>
+            </tr>
+            <tr>
+              <td>Церемония открытия</td>
+              <td class="visually-hidden">да</td>
+              <td class="visually-hidden">да</td>
+              <td class="visually-hidden">да</td>
+            </tr>
+            <tr>
+              <td>Вход на показ</td>
+              <td class="visually-hidden">да</td>
+              <td class="visually-hidden">да</td>
+              <td class="visually-hidden">да</td>
+            </tr>
+            <tr>
+              <td>Возможность голосовать</td>
+              <td class="visually-hidden">нет</td>
+              <td class="visually-hidden">да</td>
+              <td class="visually-hidden">да</td>
+            </tr>
+            <tr>
+              <td>Доступ за кулисы</td>
+              <td class="visually-hidden">нет</td>
+              <td class="visually-hidden">да</td>
+              <td class="visually-hidden">да</td>
+            </tr>
+            <tr>
+              <td>Эксклюзив от кутюрье</td>
+              <td class="visually-hidden">нет</td>
+              <td class="visually-hidden">нет</td>
+              <td class="visually-hidden">да</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><button type="button" id="ticket-watcher">Купить</button></td>
+              <td><button type="button" id="ticket-optimum">Купить</button></td>
+              <td><button type="button" id="ticket-vip ">Купить</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="contacts">
+      <h2>Свяжитесь с нами</h2>
+      <div>
+        <ul>
+          <li>
+            <p>офис продаж</p>
+            <p>363561, Москва ул. Пушкина 17/1</p>
+          </li>
+          <li>
+            <p>Для связи</p>
+            <ul>
+              <li><a href="tel:+79244567890">+7 (924) 456 78 90</a></li>
+              <li><a href="mailto:bfw@gmail.com">bfw@gmail.com</a></li>
+            </ul>
+          </li>
+          <li>
+            <p>Подпишитесь</p>
+            <ul class="contacts__social-links social-links">
+              <li>
+                <a href="https://facebook.com">
+                  <img src="img/fb.svg" alt="Логотип Facebook" width="24" height="24">
+                  <span class="visually-hidden">Ссылка на Facebook</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://instagramm.com">
+                  <img src="img/insta.svg" alt="Логотип Instagramm" width="24" height="24">
+                  <span class="visually-hidden">Ссылка на Instagramm</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com">
+                  <img src="img/twitter.svg" alt="Логотип Twitter" width="24" height="24">
+                  <span class="visually-hidden">Ссылка на Twitter</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="contacts__map"></div>
+      </div>
+      <div>
+        <form action="#" method="post">
+          <p>Отсались вопросы? Спросите нас! Мы ответим!</p>
+          <a >Задать вопрос</a>
+          <label for="contacts-name">Имя</label>
+          <input type="text" id="contacts-name" placeholder="Введите имя">
+          <p>Недопустимое значение поля. Пожалуйста, повторите ввод.</p>
+          <label for="contacts-email">email</label>
+          <input type="text" id="contacts-message" placeholder="Введите e-mail">
+          <p>Недопустимое значение поля. Пожалуйста, повторите ввод.</p>
+          <label for="contacts-message">Сообщение</label>
+          <input type="text" id="contacts-message" placeholder="Задайте любой вопрос">
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <template id="ticket-buy">
+    <div class="modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__body">
+        <button class="modal__close-btn" type="button">
+          <span class="visually-hidden">Закрыть окно</span>
+        </button>
+        <form action="#" method="post">
+          <p>Чтобы приобрести билет, заполните форму ниже. Мы свяжемся с вами по вопросу оплаты.</p>
+          <label for="ticket-name">Имя</label>
+          <input type="text" id="ticket-name" placeholder="Введите имя">
+          <p>Недопустимое значение поля. Пожалуйста, повторите ввод.</p>
+          <label for="ticket-email">email</label>
+          <input type="text" id="ticket-email" placeholder="Введите e-mail">
+          <p>Недопустимое значение поля. Пожалуйста, повторите ввод.</p>
+          <p>Статус билета</p>
+          <input type="checkbox" id="status-watcher">
+          <label for="status-watcher">Зритель</label>
+          <input type="checkbox" id="status-optimum">
+          <label for="status-watcher">Оптимум</label>
+          <input type="checkbox" id="status-vip">
+          <label for="status-watcher">VIP</label>
+          <button type="submit">Бронь билета</button>
+        </form>
+      </div>
+    </div>
+  </template>
+
+  <template id="done">
+    <div class="modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__body">
+        <button class="modal__close-btn" type="button">
+          <span class="visually-hidden">Закрыть окно</span>
+        </button>
+        <p>Спасибо за интерес к Blade Fashion Week 2019! Мы уже готовим ваше персональное приглашение. Скоро сообщим о всех деталях.</p>
+        <button type="button">Понятно</button>
+      </div>
+    </div>
+  </template>
 
   <script src="js/index.min.js"></script>
 </body>
