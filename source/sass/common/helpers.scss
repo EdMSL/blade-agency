@@ -1,0 +1,31 @@
+@import "./variables.scss";
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @media (min-width: $tablet_width) {
+    width: 620px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop_width) {
+    width: 940px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
